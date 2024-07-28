@@ -1,0 +1,61 @@
+{
+  "name": "my-ecommerc",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@bootstrap-vue-plus/icons-svg": "0.0.0-alpha.1",
+    "@bootstrap-vue-plus/icons-vue": "0.0.0-alpha.1",
+    "@fortawesome/fontawesome-svg-core": "6.3.0",
+    "@fortawesome/free-solid-svg-icons": "6.3.0",
+    "@fortawesome/vue-fontawesome": "3.0.3",
+    "@vue/cli-plugin-babel": "4.1.1",
+    "bootstrap-vue": "2.23.1",
+    "font-awesome": "4.7.0",
+    "sass-loader": "13.2.0",
+    "vue": "^2.6.11",
+    "vue-awesome": "4.5.0",
+    "vue-fontawesome": "0.0.2",
+    "vue-material-design-icon-picker": "1.1.2",
+    "wfk-poppins": "1.0.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-eslint": "4.1.1",
+    "@vue/cli-service": "4.1.1",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.0.1",
+    "vue-template-compiler": "^2.6.11",
+    "bootstrap-vue": "latest"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "keywords": [],
+  "description": ""
+}
